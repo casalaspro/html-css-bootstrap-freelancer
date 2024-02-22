@@ -1,0 +1,10 @@
+.debug [class^="col"]{
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+.debug section{
+  border: 1px solid blue;
+  min-height: 100px
+}
+

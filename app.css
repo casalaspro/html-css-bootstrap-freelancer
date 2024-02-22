@@ -8,3 +8,19 @@
   min-height: 100px
 }
 
+ul, li, menu{
+  list-style: none
+}
+
+/* LAYOUT */
+
+.nav__links{
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.nav__links li{
+
+}

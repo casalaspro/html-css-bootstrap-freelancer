@@ -53,6 +53,22 @@ a.ms_nav_logo{
   color: white;
 }
 
+/* .ms_hero_title{
+  font-size: 21px;
+} */
+
+.ms_hero_subtitle{
+  font-size: 11px;
+}
+
+.ms_hero_img{
+  max-height: 212px
+}
+
+.star__decoration .sd_line{
+  height: 3px;
+}
+
 /* media queries */
 
 @media screen and (min-width:992px) {
@@ -60,4 +76,22 @@ a.ms_nav_logo{
     font-size: 20px;
     font-weight: 700;
   }
+
+  .ms_hero_subtitle{
+    font-size: 20px;
+  }
+
+  /* .star__decoration .sd_line{
+    width: 140px;
+  } */
+
+  .ms_hero_img{
+    max-height: 256px
+  }
+}
+
+@media screen and (min-width:1400px) {
+  /* .star__decoration .sd_line{
+    width: 170px;
+  } */
 }

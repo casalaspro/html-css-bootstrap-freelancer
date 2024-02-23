@@ -69,6 +69,16 @@ a.ms_nav_logo{
   height: 3px;
 }
 
+/* about */
+
+.about{
+  background-color: var(--hero-bg);
+}
+
+/* .ms_about_paragraph{
+  column-count: 2;
+} */
+
 /* media queries */
 
 @media screen and (min-width:992px) {
@@ -87,6 +97,10 @@ a.ms_nav_logo{
 
   .ms_hero_img{
     max-height: 256px
+  }
+
+  .ms_about_paragraph{
+    column-count: 2;
   }
 }
 

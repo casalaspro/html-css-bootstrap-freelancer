@@ -1,15 +1,19 @@
-.debug [class^="col"]{
+/* .debug [class^="col"]{
   border: 1px solid black;
   min-height: 100px;
+} */
+
+:root{
+  --hero-bg: #1ABC9B;
 }
 
 .debug section{
   border: 1px solid blue;
-  min-height: 100px
+  min-height: 100px;
 }
 
 ul, li, menu{
-  list-style: none
+  list-style: none;
 }
 
 a{
@@ -18,7 +22,42 @@ a{
 
 /* LAYOUT */
 
-.nav__links{
-  gap: 10px;
+/* header */
+
+header{
+  background-color: #2C3E50;
+  color: white;
 }
 
+a.ms_nav_logo, .ms_nav_links li > a{
+  color: white;
+}
+
+a.ms_nav_logo{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ms_nav_links li > a{
+  font-size: 13px;
+}
+
+.contact form > *{
+  display: block;
+}
+
+/* hero */
+
+.hero{
+  background-color: var(--hero-bg);
+  color: white;
+}
+
+/* media queries */
+
+@media screen and (min-width:992px) {
+  a.ms_nav_logo{
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

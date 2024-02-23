@@ -99,6 +99,16 @@ a.ms_nav_logo{
   color: white;
 }
 
+.ms_social_logos .ms_sl{
+  width: 50px;
+  height: 50px;
+}
+
+.ms_social_logos .ms_sl i::before{
+  /* line-height: 50px;  */
+  /* margin: auto auto; */
+} 
+
 /* media queries */
 
 @media screen and (min-width:992px) {

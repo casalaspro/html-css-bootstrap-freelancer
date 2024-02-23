@@ -42,9 +42,9 @@ a.ms_nav_logo{
   font-size: 13px;
 }
 
-.contact form > *{
+/* .contact form > *{
   display: block;
-}
+} */
 
 /* hero */
 
@@ -78,6 +78,26 @@ a.ms_nav_logo{
 /* .ms_about_paragraph{
   column-count: 2;
 } */
+
+/* contact */
+
+.ms_btn_contact{
+  background-color: var(--hero-bg);
+}
+
+/* footer */
+
+.foot-head{
+  background-color: #39546D;
+}
+
+.foot-bottom{
+  background-color: #2C3E50;
+}
+
+.foot-head, .foot-bottom{
+  color: white;
+}
 
 /* media queries */
 
